@@ -7,7 +7,6 @@
       <mat-form-field appearance="fill">
         <mat-label>First name</mat-label>
         <input matInput formControlName="first_name" required>
-        <!-- <mat-error *ngIf="email.invalid"></mat-error> -->
       </mat-form-field>
     </div>
 
@@ -15,7 +14,6 @@
       <mat-form-field appearance="fill">
         <mat-label>Last name</mat-label>
         <input matInput formControlName="last_name" required>
-        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
       </mat-form-field>
     </div>
 
@@ -23,7 +21,6 @@
       <mat-form-field appearance="fill">
         <mat-label>Email</mat-label>
         <input matInput placeholder="abcd@example.com" formControlName="email" required>
-        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
       </mat-form-field>
     </div>
 
@@ -31,7 +28,6 @@
       <mat-form-field appearance="fill">
         <mat-label>Date of birth</mat-label>
         <input matInput type=date formControlName="dob" required>
-        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
       </mat-form-field>
     </div>
 
@@ -39,7 +35,6 @@
       <mat-form-field appearance="fill">
         <mat-label>Write about yourself</mat-label>
         <textarea matInput formControlName="user_bio" type="textarea" rowa="2"></textarea>
-        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
       </mat-form-field>
     </div>
     <button mat-raised-button color="primary" type="submit" [disabled]="userForm.invalid"
