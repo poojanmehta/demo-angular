@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+  width: 50%;
+  margin: 2% 2% 2% 2%;
+  box-shadow: 0.5px 0.5px 4px gray;
+  border-radius: 3px;
+  padding: 0.5%;
+  background-color: white;
+}
+
+.mat-form-field{
+  font-size:14px;
+  width:100%;
+}
+
+.myicon {
+  font-size: 26px;
+  margin-top: 4px;
+  margin-right: 6px;
+  float:left;
+}
+
+.mat-raised-button {
+  margin: 2% 2% 2% 2%;
+  font-size: larger;
+}
+
+.formbutton {
+  width: 100%;
+}
+
+.heading {
+  margin:2% 2% -1% 2%;
+  font-weight: 500;
+}
