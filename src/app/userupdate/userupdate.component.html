@@ -37,6 +37,6 @@
         <textarea matInput formControlName="user_bio"></textarea>
       </mat-form-field>
     </div>
-    <button mat-raised-button color="accent" class="formbutton" type="submit">Update</button>
+    <button mat-raised-button color="accent" class="formbutton" type="submit" [disabled]="userForm.invalid">Update</button>
  </form>
 </div>
